@@ -40,6 +40,12 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window max
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
+keymap.set("n", "<leader>cd", "<C-]>") -- cd into directory
+keymap.set("n", "<leader>pd", "P") -- parent directory
+keymap.set("n", "<leader>ip", "<C-e>") -- open in place
+keymap.set("n", "<leader>nt", "<C-t>") -- new tab
+keymap.set("n", "<leader>ex", "E") -- expand directories
+
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
